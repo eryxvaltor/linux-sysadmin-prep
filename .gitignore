@@ -1,0 +1,10 @@
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+__pycache__/
