@@ -8,7 +8,7 @@ The rule for this repo: something only goes in as done once I've done it and ver
 
 ## Progress
 
-Course: [Complete Linux Training Course to Get Your Dream IT Job](https://www.udemy.com/course/complete-linux-training-course-to-get-your-dream-it-job/) by Imran Afzal (Udemy), 10 modules.
+Course: [Complete Linux Training Course to Get Your Dream IT Job](https://www.udemy.com/course/complete-linux-training-course-to-get-your-dream-it-job/) by Imran Afzal (Udemy).
 
 | # | Module | Notes | Status |
 | --- | --- | --- | --- |
