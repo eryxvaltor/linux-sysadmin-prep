@@ -14,7 +14,7 @@ Course: [Complete Linux Training Course to Get Your Dream IT Job](https://www.ud
 | --- | --- | --- | --- |
 | 01 | Introduction to Linux | [Notes](notes/section-01-understanding-linux/README.md) | Done |
 | 02 | Download, Install and Configure | [Notes](notes/section-02-download-install-configure/README.md) | Done |
-| 03 | System Access and File System | - | Not started |
+| 03 | System Access and File System | [Notes](https://github.com/eryxvaltor/linux-sysadmin-prep/blob/main/notes/section-03-system-access-and-file-system/README.md) | Done |
 | 04 | Linux Fundamentals | - | Not started |
 | 05 | System Administration | - | Not started |
 | 06 | Shell Scripting | - | Not started |
