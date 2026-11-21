@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow) ![Focus](https://img.shields.io/badge/focus-Linux%20SysAdmin-blue) ![Lab](https://img.shields.io/badge/lab-RHEL%209.4-red)
 
-My complete preparation for an entry-level Linux system administration role. I document every step of the learning here: study notes, labs, and the scripts I use for them. Projects get added when I do them.
+My complete preparation for an entry-level Linux system administration role. I document every step of the learning here: study notes, hands-on labs with the scripts I used, and written case studies.
 
 The rule for this repo: something only goes in as done once I've done it and verified it.
 
@@ -36,6 +36,14 @@ Each lab has its own folder with the task description and the scripts I used.
 | [Organize Project Files into Directories](labs/section-03-system-access-file-system/01-organize-project-files/README.md) | `mkdir`, `touch`, `cp`, `mv` |
 | [Organize Office Records with Wildcards and Links](labs/section-03-system-access-file-system/02-organize-office-records-wildcards-links/README.md) | `find`, `ls`, `ln`, `ln -s` |
 
+## Case Studies
+
+Scenario exercises from the course. These are written plans and answers, not hands-on work, and each one says so.
+
+| Case study | Module | Type |
+| --- | --- | --- |
+| [Linux Lab Plan for a Support Team](case-studies/01-support-team-lab-plan/README.md) | 01 | Written plan |
+
 ## How I'm learning
 
 - Notes are written in my own words, kept short, and organized by module
@@ -55,16 +63,18 @@ Each lab has its own folder with the task description and the scripts I used.
 ```
 linux-sysadmin-prep/
 ├── README.md
-├── notes/                      # study notes, one folder per module
+├── notes/                          # study notes, one folder per module
 │   └── section-NN-name/
-└── labs/                       # one folder per module, one folder per lab
-    └── section-NN-name/
-        └── NN-lab-name/
-            ├── README.md       # task description and write-up
-            └── scripts/        # task_1.sh, task_2.sh, ...
+│       └── README.md
+├── labs/                           # hands-on labs, grouped by module
+│   └── section-NN-name/
+│       └── NN-lab-name/
+│           ├── README.md           # tasks and write-up
+│           └── scripts/            # task_1.sh, task_2.sh, ...
+└── case-studies/                   # written scenario exercises
+    └── NN-case-study-name/
+        └── README.md
 ```
-
-Projects will get their own folder if and when I add them.
 
 ## Security
 
