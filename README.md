@@ -1,6 +1,6 @@
 # Linux SysAdmin Job Prep
 
-![Status](https://img.shields.io/badge/status-in%20progress-yellow) ![Focus](https://img.shields.io/badge/focus-Linux%20SysAdmin-blue) ![Lab](https://img.shields.io/badge/lab-RHEL%209.4-red)
+![Status](https://img.shields.io/badge/status-in%20progress-yellow) ![Focus](https://img.shields.io/badge/focus-Linux%20SysAdmin-blue) ![Lab](https://img.shields.io/badge/lab-Ubuntu%20%7C%20RHEL-red)
 
 My complete preparation for an entry-level Linux system administration role. I document every step of the learning here: study notes, hands-on labs with the scripts I used, and written case studies.
 
@@ -14,7 +14,7 @@ Course: [Complete Linux Training Course to Get Your Dream IT Job](https://www.ud
 | --- | --- | --- | --- |
 | 01 | Introduction to Linux | [Notes](notes/section-01-understanding-linux/README.md) | Done |
 | 02 | Download, Install and Configure | [Notes](notes/section-02-download-install-configure/README.md) | Done |
-| 03 | System Access and File System | [Notes](notes/section-03-system-access-file-system/README.md) | Done |
+| 03 | System Access and File System | [Notes](notes/section-03-system-access-and-file-system/README.md) | Done |
 | 04 | Linux Fundamentals | - | Not started |
 | 05 | System Administration | - | Not started |
 | 06 | Shell Scripting | - | Not started |
@@ -38,11 +38,12 @@ Each lab has its own folder with the task description and the scripts I used.
 
 ## Case Studies
 
-Scenario exercises from the course. These are written plans and answers, not hands-on work, and each one says so.
+End-of-module assignments from the course. Each one says whether it is a written plan or a hands-on lab record.
 
 | Case study | Module | Type |
 | --- | --- | --- |
 | [Linux Lab Plan for a Support Team](case-studies/01-support-team-lab-plan/README.md) | 01 | Written plan |
+| [Linux VM Lab Setup](case-studies/02-linux-vm-lab-setup/README.md) | 02 | Hands-on lab record |
 
 ## How I'm learning
 
@@ -52,11 +53,10 @@ Scenario exercises from the course. These are written plans and answers, not han
 
 ## Lab environment
 
-| Item | Setup |
-| --- | --- |
-| Target | RHEL 9.4 VM on Microsoft Azure |
-| Client | Kali Linux |
-| Access | SSH key authentication |
+| Lab | Platform | Linux | Used for |
+| --- | --- | --- | --- |
+| Home lab | KVM/QEMU with Virt-Manager on a Kali Linux host | Ubuntu Server 26.04.1 LTS | [VM setup case study](case-studies/02-linux-vm-lab-setup/README.md) |
+| Cloud lab | Microsoft Azure VM, SSH key login from Kali Linux | RHEL 9.4 | Course labs |
 
 ## Repository layout
 
@@ -71,9 +71,10 @@ linux-sysadmin-prep/
 │       └── NN-lab-name/
 │           ├── README.md           # tasks and write-up
 │           └── scripts/            # task_1.sh, task_2.sh, ...
-└── case-studies/                   # written scenario exercises
+└── case-studies/                   # end-of-module course assignments
     └── NN-case-study-name/
-        └── README.md
+        ├── README.md
+        └── images/                 # screenshots, if any
 ```
 
 ## Security
