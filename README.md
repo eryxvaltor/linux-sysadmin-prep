@@ -14,7 +14,7 @@ Course: [Complete Linux Training Course to Get Your Dream IT Job](https://www.ud
 | --- | --- | --- | --- |
 | 01 | Introduction to Linux | [Notes](notes/section-01-understanding-linux/README.md) | Done |
 | 02 | Download, Install and Configure | [Notes](notes/section-02-download-install-configure/README.md) | Done |
-| 03 | System Access and File System | [Notes](notes/section-03-system-access-and-file-system/README.md) | Done |
+| 03 | System Access and File System | [Notes](notes/section-03-system-access-file-system/README.md) | Done |
 | 04 | Linux Fundamentals | - | Not started |
 | 05 | System Administration | - | Not started |
 | 06 | Shell Scripting | - | Not started |
@@ -34,6 +34,7 @@ Each lab has its own folder with the task description and the scripts I used.
 | Lab | Commands |
 | --- | --- |
 | [Organize Project Files into Directories](labs/section-03-system-access-file-system/01-organize-project-files/README.md) | `mkdir`, `touch`, `cp`, `mv` |
+| [Organize Office Records with Wildcards and Links](labs/section-03-system-access-file-system/02-organize-office-records-wildcards-links/README.md) | `find`, `ls`, `ln`, `ln -s` |
 
 ## How I'm learning
 
