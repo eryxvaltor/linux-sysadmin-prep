@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow) ![Focus](https://img.shields.io/badge/focus-Linux%20SysAdmin-blue) ![Lab](https://img.shields.io/badge/lab-RHEL%209.4-red)
 
-My complete preparation for an entry-level Linux system administration role. I document every step of the learning here, starting with study notes. Labs, scripts, and projects get added when I do them.
+My complete preparation for an entry-level Linux system administration role. I document every step of the learning here: study notes, labs, and the scripts I use for them. Projects get added when I do them.
 
 The rule for this repo: something only goes in as done once I've done it and verified it.
 
@@ -14,7 +14,7 @@ Course: [Complete Linux Training Course to Get Your Dream IT Job](https://www.ud
 | --- | --- | --- | --- |
 | 01 | Introduction to Linux | [Notes](notes/section-01-understanding-linux/README.md) | Done |
 | 02 | Download, Install and Configure | [Notes](notes/section-02-download-install-configure/README.md) | Done |
-| 03 | System Access and File System | [Notes](https://github.com/eryxvaltor/linux-sysadmin-prep/blob/main/notes/section-03-system-access-and-file-system/README.md) | Done |
+| 03 | System Access and File System | [Notes](notes/section-03-system-access-and-file-system/README.md) | Done |
 | 04 | Linux Fundamentals | - | Not started |
 | 05 | System Administration | - | Not started |
 | 06 | Shell Scripting | - | Not started |
@@ -25,10 +25,20 @@ Course: [Complete Linux Training Course to Get Your Dream IT Job](https://www.ud
 
 Links are added as each module's notes go up.
 
+## Labs
+
+Each lab has its own folder with the task description and the scripts I used.
+
+### Module 03: System Access and File System
+
+| Lab | Commands |
+| --- | --- |
+| [Organize Project Files into Directories](labs/section-03-system-access-file-system/01-organize-project-files/README.md) | `mkdir`, `touch`, `cp`, `mv` |
+
 ## How I'm learning
 
 - Notes are written in my own words, kept short, and organized by module
-- Practice happens on a real VM, not just reading
+- Labs are done on a real VM, with the commands saved as scripts
 - Mistakes and fixes get written up, not deleted
 
 ## Lab environment
@@ -44,10 +54,16 @@ Links are added as each module's notes go up.
 ```
 linux-sysadmin-prep/
 ├── README.md
-└── notes/          # study notes, one folder per module
+├── notes/                      # study notes, one folder per module
+│   └── section-NN-name/
+└── labs/                       # one folder per module, one folder per lab
+    └── section-NN-name/
+        └── NN-lab-name/
+            ├── README.md       # task description and write-up
+            └── scripts/        # task_1.sh, task_2.sh, ...
 ```
 
-Labs, scripts, and projects will get their own folders if and when I add them.
+Projects will get their own folder if and when I add them.
 
 ## Security
 
