@@ -2,12 +2,6 @@
 
 ## Overview
 
-| Item | Detail |
-| --- | --- |
-| Type | Course case study, written plan |
-| Module | 01: Introduction to Linux |
-| Commands run | None, no installation needed |
-
 ## Scenario
 
 - Five-person support team on Windows laptops
