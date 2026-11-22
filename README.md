@@ -44,6 +44,7 @@ End-of-module assignments from the course. Each one says whether it is a written
 | --- | --- | --- |
 | [Linux Lab Plan for a Support Team](case-studies/01-support-team-lab-plan/README.md) | 01 | Written plan |
 | [Linux VM Lab Setup](case-studies/02-linux-vm-lab-setup/README.md) | 02 | Hands-on lab record |
+| [Support Project Files and Links](case-studies/03-support-project-files-and-links/README.md) | 03 | Hands-on workspace record |
 
 ## How I'm learning
 
