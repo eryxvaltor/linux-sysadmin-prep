@@ -35,6 +35,7 @@ Each lab has its own folder with the task description and the scripts I used.
 | --- | --- |
 | [Organize Project Files into Directories](labs/section-03-system-access-file-system/01-organize-project-files/README.md) | `mkdir`, `touch`, `cp`, `mv` |
 | [Organize Office Records with Wildcards and Links](labs/section-03-system-access-file-system/02-organize-office-records-wildcards-links/README.md) | `find`, `ls`, `ln`, `ln -s` |
+| [Secure Project Files with Permissions and Ownership](labs/section-04-linux-fundamentals/01-secure-project-files-permissions-ownership/README.md) | `mkdir`, `echo`, `ls -l`, `chmod`, `groupadd`, `chgrp` |
 
 ## Case Studies
 
